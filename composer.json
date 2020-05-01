@@ -1,0 +1,25 @@
+{
+    "name": "bagistobrasil/bagisto-product-social-share",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Carlos Gartner",
+            "email": "contato@carlosgartner.com.br"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "BagistoBrasil\\ProductSocialShare\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "BagistoBrasil\\ProductSocialShare\\Providers\\ProductSocialShareProvider"
+            ],
+            "aliases": {}
+        }
+    },
+    "minimum-stability": "dev"
+}
