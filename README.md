@@ -14,7 +14,9 @@ Available Social Networks:
 ## Instalation
 
 1- Run `composer require bagistobrasil/bagisto-product-social-share` in your bagisto project
+
 2- Clear the cache `php artisan config:clear`
+
 3- Be happy and enjoy a coffee :D
 
 ## Configurations / Configurações
