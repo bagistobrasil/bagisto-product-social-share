@@ -33,7 +33,7 @@
             @foreach($links as $link)
                 @include(
                     'social_share::links.' . $link,
-                    compact('product, message')
+                    compact('product', 'message')
                 )
             @endforeach
         </ul>
