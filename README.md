@@ -1,6 +1,7 @@
 # Laravel eCommerce Product Social Share
 
 Extension created to add the social share links in the product page
+
 Extensão criada para adicionar os links das redes sociais para você poder compartilhar seu produto.
 
 Available Social Networks: 
