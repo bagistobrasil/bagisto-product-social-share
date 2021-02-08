@@ -1,10 +1,5 @@
-@inject ('productImageHelper', 'Webkul\Product\Helpers\ProductImage')
 @php
-    /**
-     * @var Webkul\Product\Models\ProductFlat $product
-     * @var string $message
-     */
-    $productBaseImage = $productImageHelper->getProductBaseImage($product);
+    $productBaseImage = productimage()->getProductBaseImage($product);
     $image = $productBaseImage['medium_image_url'] ?: asset('vendor/webkul/ui/assets/images/product/meduim-product-placeholder.png');
     $url = route('shop.productOrCategory.index', $product->url_key);
     $pinterest_url = 'https://pinterest.com/pin/create/button/?' . http_build_query([
